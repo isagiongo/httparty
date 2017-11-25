@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="rspec" tests="9" skipped="0" failures="0" errors="0" time="16.985707" timestamp="2017-11-18T13:44:15-02:00" hostname="NOTE-IG">
+<properties>
+<property name="seed" value="55049"/>
+</properties>
+<testcase classname="spec.books_get_list_spec" name="GET /api/books Status 200 listar livros" file="./spec/books_get_list_spec.rb" time="0.441534"></testcase>
+<testcase classname="spec.books_get_params_spec" name="GET /api/books Status 200 buscar por título do livro" file="./spec/books_get_params_spec.rb" time="0.454001"></testcase>
+<testcase classname="spec.books_get_params_spec" name="GET /api/books Status 200 pesquisa não retorna registro" file="./spec/books_get_params_spec.rb" time="0.419749"></testcase>
+<testcase classname="spec.books_get_unique_spec" name="GET /api/books Status 200 buscar um único livro" file="./spec/books_get_unique_spec.rb" time="0.457987"></testcase>
+<testcase classname="spec.books_get_unique_spec" name="GET /api/books status 404 id do livro não existe" file="./spec/books_get_unique_spec.rb" time="0.440884"></testcase>
+<testcase classname="spec.books_post_spec" name="POST /api/books status 200 cadastrar novo livro" file="./spec/books_post_spec.rb" time="0.439583"></testcase>
+<testcase classname="spec.books_post_spec" name="POST /api/books status 409 livro já cadastrado" file="./spec/books_post_spec.rb" time="0.457904"></testcase>
+<testcase classname="spec.books_put_spec" name="POST /api/books status 200 atualiza livro" file="./spec/books_put_spec.rb" time="0.475482"></testcase>
+<testcase classname="spec.books_put_spec" name="POST /api/books status 404 id do livro não existe" file="./spec/books_put_spec.rb" time="0.474321"></testcase>
+</testsuite>
